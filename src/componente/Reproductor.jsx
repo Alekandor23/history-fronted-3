@@ -117,7 +117,7 @@ const Reproductor = ({ onClose, paragraphs, setCurrentParagraphIndex, currentPar
   return (
     <div className="player-container">
       <div className="player-header">
-        <i className="bi bi-x-square" onClick={toggleOnClose}></i>
+        {/* <i className="bi bi-x-square" onClick={toggleOnClose}></i> */}
       </div>
       <div className="player-controls">
         <i className="bi bi-rewind" onClick={() => setCurrentParagraphIndex(Math.max(currentParagraphIndex - 1, 0))}></i>
